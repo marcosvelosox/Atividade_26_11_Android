@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campos para entrada dos números -->
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o primeiro número"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o segundo número"
+        android:inputType="number" />
+
+    <!-- Botão para verificar o maior número -->
+    <Button
+        android:id="@+id/btnMaior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificar Maior Número" />
+
+    <!-- TextView para exibir o maior número -->
+    <TextView
+        android:id="@+id/tvMaior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O maior número será exibido aqui"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Botão para somar números ímpares -->
+    <Button
+        android:id="@+id/btnSomarImpares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Somar Números Ímpares" />
+
+    <!-- TextView para exibir o resultado da soma -->
+    <TextView
+        android:id="@+id/tvSomaImpares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A soma dos números ímpares será exibida aqui"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

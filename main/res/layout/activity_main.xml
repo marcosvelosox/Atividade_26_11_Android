@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- EditText para o primeiro número -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o primeiro número"
+        android:inputType="number"/>
+
+    <!-- EditText para o segundo número -->
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText1"
+        android:hint="Digite o segundo número"
+        android:inputType="number"/>
+
+    <!-- Botão para verificar o maior número -->
+    <Button
+        android:id="@+id/maiorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText2"
+        android:text="Verificar Maior Número"/>
+
+    <!-- TextView para exibir o maior número -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maiorButton"
+        android:text="Maior: "
+        android:textSize="18sp"/>
+
+    <!-- Botão para somar números ímpares -->
+    <Button
+        android:id="@+id/somarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultTextView"
+        android:text="Somar Números Ímpares"/>
+
+    <!-- TextView para exibir a soma dos números ímpares -->
+    <TextView
+        android:id="@+id/sumTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/somarButton"
+        android:text="Soma dos números ímpares: "
+        android:textSize="18sp"/>
+
+</RelativeLayout>
