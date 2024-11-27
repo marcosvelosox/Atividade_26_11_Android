@@ -8,4 +8,6 @@
     <style name="Theme.MaiorEImpar" parent="android:Theme.Material.Light.NoActionBar" />
 
     <style name="Theme.Maioriampar" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.NumerosPrimosApp" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
